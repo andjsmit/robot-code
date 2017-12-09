@@ -89,7 +89,8 @@ task usercontrol()
 
     // Remove this function call once you have "real" code.
     //UserControlCodePlaceholderForTesting();
-  motor[drivevar]=vexRT[Ch1];
+
+  	motor[drivevar]= vexRT[Ch1];
 
   }
 }
