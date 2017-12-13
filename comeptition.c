@@ -43,8 +43,8 @@ void leftWheels (int speed=0){
 }
 void rightWheels (int speed= 0){
 	// Set motors 3 and 4 to the speed var
-	motor[motor3]=speed;
-	motor[motor4]=speed;
+	motor[motor3]=-speed;
+	motor[motor4]=-speed;
 }
 
 void moveArm (int speed=0 ) {
