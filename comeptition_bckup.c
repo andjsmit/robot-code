@@ -101,17 +101,8 @@ task autonomous()
 	//leftWheels(-127);
 	//rightWheels(-127);
 	//wait1Msec(1500);
-	rightWheels(127);
-	leftWheels(127);
-	wait1Msec(400);
-
 	rightWheels(0);
 	leftWheels(0);
-
-	moveArm(-armUpSpeed);
-
-	wait1Msec(300);
-	moveArm(0);
 }
 
 /*---------------------------------------------------------------------------*/
